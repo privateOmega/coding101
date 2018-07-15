@@ -11,11 +11,12 @@ def sieve_of_eratosthenes(n):
                     primes[j] = False
     for i in range(n):
         if primes[i]:
-            print i
+            print(i, end=" ")
+    print("")
 
 
 def main():
-    sieve_of_eratosthenes(30)
+    sieve_of_eratosthenes(5)
 
 
 if __name__ == '__main__':
